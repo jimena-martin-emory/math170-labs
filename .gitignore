@@ -1,0 +1,44 @@
+# ---------------------------------------------------------------------------
+# MATH 170 — student-facing repository
+#
+# This repo holds ONLY files students should see. Autograders, solutions, and
+# anything with student names live elsewhere and must never be committed here.
+# ---------------------------------------------------------------------------
+
+# Never commit: grading machinery and answers
+src/
+solution/
+solutions/
+autograder*.zip
+run_autograder
+run_tests.py
+gsconfig.py
+stubcheck.py
+test_*.py
+*_test.py
+tests/
+config
+
+# Never commit: anything identifying students (FERPA)
+roster*.csv
+*grades*.csv
+*attendance*
+signin*
+*.pdf
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
